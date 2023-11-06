@@ -11,7 +11,7 @@ O código fonte está estruturado no pacote principal: "italo.imagemeditor". Den
 pacotes e módulos:
 
 * <b><u>controller</u></b>: Onde fica o tratamento de eventos. Isto é, os métodos a serem executados a cada evento de interface gráfica tratado;
-* <b><u>desenho: Onde fica o código dos filtros, efeitos e remoção de canais. A estrutura da classe PainelDesenho permite que se possa desfazer ou refazer alguma alteração no gráfico.
+* <b><u>desenho</u></b>: Onde fica o código dos filtros, efeitos e remoção de canais. A estrutura da classe PainelDesenho permite que se possa desfazer ou refazer alguma alteração no gráfico.
 * <b><u>gui</u></b>: Onde fica o código da interface gráfica swing com a janela principal e o painel de desenho;
 * <b><u>logica</u></b>: Onde tem apenas a classe utilitária de arquivos de imagem.
 
