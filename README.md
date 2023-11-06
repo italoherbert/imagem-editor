@@ -10,10 +10,10 @@ canais de cores, desfazer e refazer, carregar imagens e salvar nos formatos: gif
 O código fonte está estruturado no pacote principal: "italo.imagemeditor". Dentro deste pacote estão os seguintes 
 pacotes e módulos:
 
-* controller: Onde fica o tratamento de eventos. Isto é, os métodos a serem executados a cada evento de interface gráfica tratado;
-* desenho: Onde fica o código dos filtros, efeitos e remoção de canais. A estrutura da classe PainelDesenho permite que se possa desfazer ou refazer alguma alteração no gráfico.
-* gui: Onde fica o código da interface gráfica swing com a janela principal e o painel de desenho;
-* logica: Onde tem apenas a classe utilitária de arquivos de imagem.
+* <b><u>controller</u></b>: Onde fica o tratamento de eventos. Isto é, os métodos a serem executados a cada evento de interface gráfica tratado;
+* <b><u>desenho: Onde fica o código dos filtros, efeitos e remoção de canais. A estrutura da classe PainelDesenho permite que se possa desfazer ou refazer alguma alteração no gráfico.
+* <b><u>gui</u></b>: Onde fica o código da interface gráfica swing com a janela principal e o painel de desenho;
+* <b><u>logica</u></b>: Onde tem apenas a classe utilitária de arquivos de imagem.
 
 O pacote "controller", tem uma interface "Sistema" que tem os métodos de integração dos "controllers", com o restante do sistema.
 
