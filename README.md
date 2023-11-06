@@ -9,6 +9,12 @@
 
 ## Como rodar?
 
+|  :zap:  Atenção: é necessário o Java 11 ou superior instalado   |
+|-----------------------------------------------------------------|
+
+| :zap:  É necessário também, o caminho da pasta bin do java (JDK ou JRE) adicionados à variável de ambiente  |
+|-------------------------------------------------------------------------------------------------------------|
+
 <p>
   Para rodar, descompacte o arquivo imagem-editor-1.0.zip, contido na raiz do projeto ou como release do github. Após descompactar, 
   use a linha de comandos para posicionar o diretório corrente na pasta compactada e, então, rode o seguinte comando.
@@ -17,9 +23,3 @@
 ```
 java -jar imagem-editor-1.0.jar
 ```
-
-|  :zap:  Atenção: é necessário o Java 11 ou superior instalado   |
-|-----------------------------------------------------------------|
-
-| :zap:  É necessário também, o caminho da pasta bin do java (JDK ou JRE) adicionados à variável de ambiente  |
-|-------------------------------------------------------------------------------------------------------------|
