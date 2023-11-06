@@ -7,8 +7,8 @@ import java.util.LinkedList;
 
 public class PainelDesenho implements Desenho {
 
-    private final LinkedList<Desenho> desenhos = new LinkedList();
-    private final LinkedList<Desenho> removidos = new LinkedList();
+    private final LinkedList<Desenho> desenhos = new LinkedList<>();
+    private final LinkedList<Desenho> removidos = new LinkedList<>();
         
     @Override
     public void desenha( Grafico g ) {
