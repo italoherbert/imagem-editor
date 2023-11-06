@@ -58,7 +58,7 @@
                             <goal>copy-resources</goal>
                         </goals>
                         <configuration>                           
-                            <outputDirectory>${basedir}/deploy/imagem-editor-${project.version}/</outputDirectory>
+                            <outputDirectory>${basedir}/deploy/${project.build.finalName}/</outputDirectory>
                             <resources>
                                 <resource>
                                     <directory>${basedir}/target</directory>
