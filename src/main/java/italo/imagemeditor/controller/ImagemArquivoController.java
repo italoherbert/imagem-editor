@@ -2,7 +2,6 @@ package italo.imagemeditor.controller;
 
 import italo.imagemeditor.Erros;
 import italo.imagemeditor.Infos;
-import italo.imagemeditor.Sistema;
 import italo.imagemeditor.desenho.CentralizaImagemDesenho;
 import italo.imagemeditor.gui.desenho.Desenho;
 import italo.imagemeditor.gui.janela.ImagemArquivoListener;

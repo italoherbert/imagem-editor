@@ -1,6 +1,5 @@
 package italo.imagemeditor.controller;
 
-import italo.imagemeditor.Sistema;
 import italo.imagemeditor.desenho.AplicaFiltro3x3Desenho;
 import italo.imagemeditor.desenho.PixelizaDesenho;
 import italo.imagemeditor.desenho.RemoveCanalDesenho;
