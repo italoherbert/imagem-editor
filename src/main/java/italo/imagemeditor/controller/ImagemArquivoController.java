@@ -1,5 +1,6 @@
 package italo.imagemeditor.controller;
 
+import italo.imagemeditor.Constantes;
 import italo.imagemeditor.Erros;
 import italo.imagemeditor.Infos;
 import italo.imagemeditor.desenho.CentralizaImagemDesenho;
@@ -32,7 +33,7 @@ public class ImagemArquivoController implements ImagemArquivoListener {
         chooser.setFileSelectionMode( JFileChooser.FILES_AND_DIRECTORIES );
         chooser.setMultiSelectionEnabled( false );
         chooser.setAcceptAllFileFilterUsed( false );
-        chooser.setCurrentDirectory( new File( "." ) ); 
+        chooser.setCurrentDirectory( new File( Constantes.IMAGEM_DIRETORIO_PADRAO ) ); 
         
         chooser.setFileFilter( imgArqUtil.fileFilter() );
         
@@ -61,7 +62,7 @@ public class ImagemArquivoController implements ImagemArquivoListener {
         JFileChooser chooser = new JFileChooser();
         chooser.setFileSelectionMode( JFileChooser.FILES_AND_DIRECTORIES );
         chooser.setMultiSelectionEnabled( false );
-        chooser.setCurrentDirectory( new File( "." ) ); 
+        chooser.setCurrentDirectory( new File( Constantes.IMAGEM_DIRETORIO_PADRAO ) ); 
                 
         int result = chooser.showSaveDialog( null );
         if ( result == JFileChooser.APPROVE_OPTION ) {

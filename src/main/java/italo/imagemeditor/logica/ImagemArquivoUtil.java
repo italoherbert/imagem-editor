@@ -4,10 +4,10 @@ import java.io.File;
 import javax.swing.filechooser.FileFilter;
 
 public class ImagemArquivoUtil {
-    
-    public final static String[] IMG_EXTS_VALIDAS = { ".jpg", ".jpeg", ".png", ".gif" };
-    public final static String FILTRO_DESCRICAO = "jpg, jpeg, gif e png";
         
+    public final static String[] IMAGEM_EXTENSOES_VALIDAS = { ".jpg", ".jpeg", ".png", ".gif" };
+    public final static String IMAGEM_EXTENSOES_FILTRO_DESCRICAO = "jpg, jpeg, gif e png";
+    
     public boolean isNomeValido( String arquivoNome ) {
         int pontoI = arquivoNome.indexOf( "." );
         if ( pontoI < 1 )
@@ -16,7 +16,7 @@ public class ImagemArquivoUtil {
     }
     
     public boolean isExtValida( String arquivoNome ) {        
-        for( String ext : IMG_EXTS_VALIDAS )
+        for( String ext : IMAGEM_EXTENSOES_VALIDAS )
             if ( arquivoNome.endsWith( ext ) )
                 return true;
         return false;
@@ -30,7 +30,7 @@ public class ImagemArquivoUtil {
         String ext = arquivoNome.substring( pontoI );    
         if ( ext.equals( ".png" ) )
             return "png";
-        if ( ext.equals( "gif" ) )
+        if ( ext.equals( ".gif" ) )
             return "gif";
         return "jpeg";
     }
@@ -44,7 +44,7 @@ public class ImagemArquivoUtil {
 
             @Override
             public String getDescription() {
-                return FILTRO_DESCRICAO;
+                return IMAGEM_EXTENSOES_FILTRO_DESCRICAO;
             }
         };
     }
