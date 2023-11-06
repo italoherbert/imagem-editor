@@ -19,15 +19,17 @@ O pacote "controller", tem uma interface "Sistema" que tem os métodos de integr
 
 ## Como compilar e rodar?
 
-|  :zap:  Atenção: é necessário o Java 11 ou superior instalado   |
-|-----------------------------------------------------------------|
+<blockquote>
+  <b>Atenção:</b> é necessário o Java 11 ou superior instalado
+</blockquote>
 
 Para compilar, você pode utiliar o maven ou importar em sua IDE de preferência o projeto como projeto maven.
 
 ### Compilando com o maven
 
-| :zap:  É necessário o mavem com o caminho dos binários adicionados à variável de ambiente "PATH"  |
-|---------------------------------------------------------------------------------------------------|
+<blockquote>  
+  É necessário o mavem com o caminho dos binários adicionados à variável de ambiente "PATH"
+</blockquote>
 
 Navegue até a raiz do projeto, onde está o arquivo "pom.xml", e execute o seguinte comando:
 
@@ -39,8 +41,9 @@ O resultado deste comando é o software empacotado como arquivo "Jar" e colocado
 
 ### Rodando o projeto
 
-| :zap:  É necessário o caminho da pasta bin do java (JDK ou JRE) adicionados à variável de ambiente "PATH"  |
-|------------------------------------------------------------------------------------------------------------|
+<blockquote>
+  É necessário o caminho da pasta bin do java (JDK ou JRE) adicionados à variável de ambiente "PATH"
+</blockquote>
 
 Para rodar, navegue pela linha de comandos até a pasta "target" e execute o seguinte comando:
 
@@ -50,8 +53,9 @@ java -jar imagem-editor-1.0.jar
 
 ## Como rodar a release?
 
-| :zap:  É necessário o caminho da pasta bin do java (JDK ou JRE) adicionados à variável de ambiente "PATH"  |
-|------------------------------------------------------------------------------------------------------------|
+<blockquote>
+  É necessário o caminho da pasta bin do java (JDK ou JRE) adicionados à variável de ambiente "PATH"
+</blockquote>
 
 Para rodar, descompacte o arquivo imagem-editor-1.0.zip, contido na raiz do projeto ou como release do github. Após descompactar, 
 use a linha de comandos para posicionar o diretório corrente na pasta compactada e, então, rode o seguinte comando.
