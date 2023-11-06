@@ -45,7 +45,7 @@ O resultado deste comando é o software empacotado como arquivo "Jar" e colocado
   É necessário o caminho da pasta bin do java (JDK ou JRE) adicionados à variável de ambiente "PATH"
 </blockquote>
 
-Para rodar, navegue pela linha de comandos até a pasta "target" e execute o seguinte comando:
+Para rodar, execute o seguinte comando:
 
 ```
 java -jar imagem-editor-1.0.jar
