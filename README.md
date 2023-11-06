@@ -17,13 +17,41 @@ pacotes e módulos:
 
 O pacote "controller", tem uma interface "Sistema" que tem os métodos de integração dos "controllers", com o restante do sistema.
 
-## Como rodar?
+## Como compilar e rodar?
 
 |  :zap:  Atenção: é necessário o Java 11 ou superior instalado   |
 |-----------------------------------------------------------------|
 
-| :zap:  É necessário também, o caminho da pasta bin do java (JDK ou JRE) adicionados à variável de ambiente  |
-|-------------------------------------------------------------------------------------------------------------|
+Para compilar, você pode utiliar o maven ou importar em sua IDE de preferência o projeto como projeto maven.
+
+### Compilando com o maven
+
+| :zap:  É necessário o mavem com o caminho dos binários adicionados à variável de ambiente "PATH"  |
+|---------------------------------------------------------------------------------------------------|
+
+Navegue até a raiz do projeto, onde está o arquivo "pom.xml", e execute o seguinte comando:
+
+```
+mvn clean package
+```
+
+O resultado deste comando é o software empacotado como arquivo "Jar" e colocado na pasta "target".
+
+### Rodando o projeto
+
+| :zap:  É necessário o caminho da pasta bin do java (JDK ou JRE) adicionados à variável de ambiente "PATH"  |
+|------------------------------------------------------------------------------------------------------------|
+
+Para rodar, navegue pela linha de comandos até a pasta "target" e execute o seguinte comando:
+
+```
+java -jar imagem-editor-1.0.jar
+```
+
+## Como rodar a release?
+
+| :zap:  É necessário o caminho da pasta bin do java (JDK ou JRE) adicionados à variável de ambiente "PATH"  |
+|------------------------------------------------------------------------------------------------------------|
 
 Para rodar, descompacte o arquivo imagem-editor-1.0.zip, contido na raiz do projeto ou como release do github. Após descompactar, 
 use a linha de comandos para posicionar o diretório corrente na pasta compactada e, então, rode o seguinte comando.
