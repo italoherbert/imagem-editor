@@ -48,7 +48,7 @@ O resultado deste comando é o software empacotado como arquivo "Jar" e colocado
 Para rodar, execute o seguinte comando:
 
 ```
-java -jar imagem-editor-1.0.jar
+java -jar imagem-editor-1.2.jar
 ```
 
 ## Como rodar a release?
@@ -61,5 +61,5 @@ Para rodar, descompacte o arquivo imagem-editor-1.0.zip, contido na raiz do proj
 use a linha de comandos para posicionar o diretório corrente na pasta compactada e, então, rode o seguinte comando.
 
 ```
-java -jar imagem-editor-1.0.jar
+java -jar imagem-editor-1.2.jar
 ```
