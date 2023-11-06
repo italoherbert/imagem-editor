@@ -75,8 +75,8 @@ public class JanelaPrincipalGUI extends JFrame implements JanelaPrincipal, Actio
     private JPanel criaSulPNL() {
         carregaBT = new JButton( "Carregar" );
         salvaBT = new JButton( "Salvar" );              
-        desfazBT = new JButton( "Desfaz" );
-        refazBT = new JButton( "Refaz" );
+        desfazBT = new JButton( "Desfazer" );
+        refazBT = new JButton( "Refazer" );
         
         carregaBT.addActionListener( this );
         salvaBT.addActionListener( this );         
