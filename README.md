@@ -21,5 +21,5 @@ java -jar imagem-editor-1.0.jar
 |  :zap:  Atenção: é necessário o Java 11 ou superior instalado   |
 |-----------------------------------------------------------------|
 
-| :zap:  É necessário também, o caminho da pasta bin do java (JDK ou JRE) adicionados a variável de ambiente  |
+| :zap:  É necessário também, o caminho da pasta bin do java (JDK ou JRE) adicionados à variável de ambiente  |
 |-------------------------------------------------------------------------------------------------------------|
